@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                          
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"           
+             mc:Ignorable="d"
+             x:Class="SALONXAMARIN.Offres">
+
+
+    <!--  ctrl + k + c (comment)     ctrl + k + u (uncomment) -->
+    
+    <ScrollView>
+        <StackLayout Padding="20">
+               
+            <!-- Header of the page -->
+            <Label Text="Recrutement" FontSize="18" FontAttributes="Bold"/>
+            <Label Text="Liste des postes disponibles :" FontSize="Medium" Margin="0,10,0,5" TextColor="#5271FF" FontAttributes="Bold" />
+
+            <!-- List of available positions -->
+            <Picker x:Name="AvailablePositionsPicker" Title="Sélectionnez un poste" SelectedIndexChanged="OnPositionSelected">
+                <Picker.Resources>
+                    <Style TargetType="Picker">
+                        <Setter Property="TitleColor" Value="Black" />
+                        <!-- Couleur du texte dans le Picker -->
+                        <Setter Property="TextColor" Value="Black" />
+                        <!-- Couleur du texte des éléments dans la liste -->
+                        <Setter Property="BackgroundColor" Value="White" />
+                        <!-- Couleur de fond du Picker -->
+                        <Setter Property="SelectedIndex" Value="0" />
+                        <!-- Index de l'élément sélectionné par défaut -->
+                        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                        <!-- Options de mise en page horizontales -->
+                        <Setter Property="VerticalOptions" Value="Center" />
+                        <!-- Options de mise en page verticales -->
+                        <!-- Personnalisation de la couleur de fond lors de la sélection -->
+
+                    </Style>
+                </Picker.Resources>
+                <!--<Picker.Effects>
+                    <local:PickerLineColorEffect />
+                    --><!-- Appliquer l'effet ici --><!--
+                </Picker.Effects>-->
+            </Picker>
+
+            <!-- Form for applying -->
+            
+            <!-- Espace pour afficher la description du poste sélectionné -->
+            <Label Text="Description du poste :" FontSize="Medium" FontAttributes="Bold" Margin="0,20,0,5"/>
+            <Label x:Name="DescriptionLabel" Text="Sélectionnez un poste pour afficher sa description." FontSize="14" />
+
+            <Label Text="Postuler pour ce poste :" FontSize="Medium" FontAttributes="Bold" Margin="0,20,0,5"/>
+            <!-- Input fields for the application -->
+
+            <Grid Margin="0,0,0,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Prénom:" VerticalOptions="Center" HorizontalOptions="Start" FontSize="18" TextColor="#5271FF" FontAttributes="Bold" />
+                <Entry x:Name="FirstNameEntry" Grid.Row="1" Placeholder="Prénom" FontSize="14" />
+            </Grid>
+
+            <Grid Margin="0,0,0,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Nom:" VerticalOptions="Center" HorizontalOptions="Start" FontSize="18" TextColor="#5271FF" FontAttributes="Bold" />
+                <Entry x:Name="LastNameEntry" Grid.Row="1" Placeholder="Nom" FontSize="14" />
+            </Grid>
+
+            <Grid Margin="0,0,0,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Adresse email:" VerticalOptions="Center" HorizontalOptions="Start" FontSize="18" TextColor="#5271FF" FontAttributes="Bold" />
+                <Entry x:Name="EmailEntry" Grid.Row="1" Placeholder="Adresse email" FontSize="14" />
+            </Grid>
+
+            <Grid Margin="0,0,0,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Numéro de téléphone:" VerticalOptions="Center" HorizontalOptions="Start" FontSize="18" TextColor="#5271FF" FontAttributes="Bold" />
+                <Entry x:Name="PhoneNumberEntry" Grid.Row="1" Placeholder="Numéro de téléphone" FontSize="14" />
+            </Grid>
+      
+
+            <Button Text="Télécharger un CV" Margin="0,0,0,5" BackgroundColor="#F0EC9B" Clicked="OnFilePickerButtonClicked"/> 
+            <Button Text="Télécharger une lettre de motivation" Margin="0,0,0,5" BackgroundColor="#F0EC9B" Clicked="OnFilePickerButtonClicked"/>
+                        
+                <Grid Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <!-- Auto-adjusts to label width -->
+                        <ColumnDefinition Width="Auto" />
+                        <!-- Width based on button content -->
+                    </Grid.ColumnDefinitions>
+
+                    <Label x:Name="CVLabel" TextColor="Black" FontSize="16" />
+                    <ImageButton x:Name="ClearCVButton" Grid.Column="1" Source="delete.png" Aspect="AspectFit" 
+                     Padding="0" Margin="0" HeightRequest="20" WidthRequest="20" 
+                     HorizontalOptions="End" IsVisible="false" Clicked="OnClearCVButtonClicked" />
+                </Grid>
+
+
+                <Grid Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <!-- Auto-adjusts to label width -->
+                        <ColumnDefinition Width="Auto" />
+                        <!-- Width based on button content -->
+                    </Grid.ColumnDefinitions>
+
+                    <Label x:Name="LettreLabel" TextColor="Black" FontSize="16" />
+                    <ImageButton x:Name="ClearLettreButton" Grid.Column="1" Source="delete.png" Aspect="AspectFit" 
+                     Padding="0" Margin="0" HeightRequest="20" WidthRequest="20" 
+                     HorizontalOptions="End" IsVisible="false" Clicked="OnClearLettreButtonClicked" />
+                </Grid>
+
+            <Grid Margin="0,0,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Label à gauche du Switch -->
+                <!--<Label x:Name="SwitchLabel" Text="J'ai bien vérifié les informations fournies" VerticalOptions="Center" Grid.Column="0" FontSize="13" />-->
+
+                <!-- Switch à droite du Label -->
+                <!--<Switch x:Name="DocumentSwitch" IsToggled="false" Margin="5,0,0,0" Grid.Column="1" />-->
+            </Grid>
+
+
+            <Button Text="Envoyer la candidature" HorizontalOptions="End" BackgroundColor="#F0EC9B" Clicked="OnSubmitButtonClicked"/>
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -10,16 +10,15 @@ namespace SALONXAMARIN
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new CONNEXION());
+            MainPage = new NavigationPage(new Postes_acceuil());
         }
-
         protected override void OnStart ()
         {
         }
 
         protected override void OnSleep ()
         {
-        }
+        }   
 
         protected override void OnResume ()
         {

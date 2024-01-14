@@ -12,27 +12,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Cloud.Firestore" Version="1.1.0-beta01" />
-    <PackageReference Include="Rg.Plugins.Popup" Version="2.1.0" />
+    <ItemGroup>
+  <PackageReference Include="Google.Cloud.Firestore" Version="1.1.0-beta01" />
+</ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="class\" />
-    <None Remove="courstuto_key.json" />
-    <None Remove="salonxamarin_key.json" />
+    <None Remove="delete.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="courstuto_key.json" />
-    <EmbeddedResource Include="salonxamarin_key.json" />
+    <EmbeddedResource Include="delete.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="offres.xaml.cs">
       <DependentUpon>Offres.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Postes_enregistres.xaml.cs">
-      <DependentUpon>Postes_enregistres.xaml</DependentUpon>
     </Compile>
     <Compile Update="Postes_acceuil.xaml.cs">
       <DependentUpon>Postes_acceuil.xaml</DependentUpon>
@@ -40,31 +36,19 @@
     <Compile Update="Profil.xaml.cs">
       <DependentUpon>Profil.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Offres.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Postes_enregistres.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Postes_acceuil.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Post_details.xaml">
+    <EmbeddedResource Update="Poste_details.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Profil.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

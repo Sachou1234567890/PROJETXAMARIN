@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "salonxamarin-410520",
+  "private_key_id": "d1f4b77312a3acc8205489428db46069148de4e5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5MWRRqsAHxASr\nccMdfipOp4ZbJ+j8cLLekhFeVkQnq06CTrnEfszaMoX3M90eRmJS2vvSd2wqCLKM\n4M0yuoG4F59SUd6Ga7fgShGDsTX9scQ/YFr0v55tbGmXkr8CM8AMgUY+WTypvfvY\nUjZR/KS0BWWgeElK9odIrpB1oZKS9+6173AqjmCaiHvm/Yi79dLB0c8lvWrxloiT\n90dAif14krIY5dlJA9WBiuz4AuitYavxQhYxiIixrD/NnGNUjjOJtw/Ga/sb7Wrj\nTELTktBB3bknFcjc22m6vTubH8j5FJR7Q300SnFjoTMjUExUYzY217JXnuPPH86I\neCVrrZwPAgMBAAECggEAPc6KtSjgIxdcGZ4DqQWw+AQ4NpcYzpuMTvT///SZlYW6\nU4oTvM028EG5bTnte8uwyAdW0TTTMCor8RGb2mjdn0OfBDnXoxQzT5NYyhNsOgnI\nvgAaCyIirVFn4lLzFbiQyXuhpnBg6yPBeD5j67P+gihk9QwAJhkmKG8+PkwY35x2\njhagIMnUhQ1biB/zzNFEtybW9Sq/wFp4TPRb99xp3s2plk1pUxeQ+h4Rz/R4cV8j\nZJzczsdjSgXjKcDikgAMSK1YYK+PntznDTkU7xtWIcL8o0bIoV/UWdWugyi5IuEk\nAK905yt0P5xOPczfPTJ3vuTSeHy6WrtUQOi0sPDP2QKBgQDwVrqfLroQABhyFIX2\ntaV+V9Il3+caWf9CoYlfDtV9+sqzrEtVZ/z+fNo/geto5fLXpRMKJm1fXZ2hIWQO\n04Nxq8yk/3bZkQsln0XRShdD8Yyn2lMonm5UAuHIr/82RI1aeogCTYsVw8GsBc7P\nTAKrCI/gkEcym2ksbs2SRlrb1wKBgQDFQrvW2Th1TBvX3+vVvHKj5G+EVZOvDLZS\nmaCywY6OYGRAgavP/ckC/qN24OUmHXOzc+Mj8pJiqxHjktzCL3ffRuCdO80d3Mig\nr4tQRAJarlLIjiEM9lcnhjIpRY0URnhvENx3omiLAhgYjOMwT5hAHhfE+3z+zSE9\ntGnubNL6iQKBgQDOVwe+ZtWjqxFR0ED7gRRmlmt7zPGS9DVtNVbFX+z3Tfv9qiy7\nVJ4mt3aBE7/Svalybu0bx8YbHDqa/hnziLDPRNpbxmB5hkd1s3qzptK2qIlECvNe\najb6tca3EDMimlRpm81tfLmuo/SBBjN6Uh3wTVeJSxV1Y2w2k6K2tOSI3QKBgCy+\nCz8bPBwW7EXVy3dKbDJScRzyEDJnTr+DixigoIYYxQSApQjjRoHAYjFnp3IywfiV\nM5MGxT9OEBuvRxVgkO76852WX9sDJhqUVqQZGPOakLpeyo5XHcOgQ6Zq2SodJdoD\nWA5mrxHAotiGtE1T8HOyn6+VX2+n9X86ecCTvHMJAoGBAMHDZBRBaqUnDoB+sR05\nf2D/BlPwBOQwHNkpNja4rnepWrqN7R1t3oExXKfOBmE/5r4aQ+vdsxxb3GAeXT1f\nS0ORWdVwMkZqRMs0RIbH/S6W5XJiDT1px7VU1PgglhkQePoEOtU7TIfozDvc6tZT\nhRPsM2RxXFMb/OPgPl9W+Nm7\n-----END PRIVATE KEY-----\n",
+  "client_email": "salonxamarin@salonxamarin-410520.iam.gserviceaccount.com",
+  "client_id": "103532458743050321882",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/salonxamarin%40salonxamarin-410520.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

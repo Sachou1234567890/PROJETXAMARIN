@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "courstuto-e40fa",
+  "private_key_id": "3f254f127a4ecdb55964919f086b9bf3ca10e6d4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/dCI4G/ipc4wh\nSXv/lxpgTNSYeImf5BdaUUqGPEff/yuOCf5eMih+gmb/FgoQ4/xcyhA4DqKnBz8C\nVTfzMG+orJiwUs3L6qzXdyKMRv9TF4oXJr5euUEpJl1goLVQhmyjHxiNwAN8a8yE\nU3T+oHG3piGeaqImID3qxL4jAyFdk5EnsyEDkKbreMavDGNM+SmN1vaZfZDhKm1e\naGNS0YrXy7vVcMIIfMDW2clDtYRif+jMWg/Cnc0AHuY/81rXIMVem6FciwCfU7Ur\nhpYVdFpONvQLIrFVGsU/PL83vy0NZDH6YRQgbw3tMTw134LtJz+MxtdjZfH3kcWd\ncah6MczvAgMBAAECggEAEYDFBhssixVYuMxWjUHbs/UiNIRElL0OE4A+D3KgYY6b\nBUPNoP/16sbyMpzps6ycLEF+5RkVbq6/aG+xC0cg1itdVDVlwiBEx/gIzQlKm2aa\nBc7Rdah7GA99VvGqUd/QO8OCg6cLyoqyamCU4Bh7/P2vsiNuiozFDFsLRPkqyjqk\ncXfgALQkeq8wRAlYbwXcRo78DC4LFm2UlJe1Ad67yBwmeWV85XHm3HU1mOj0eSP/\nRC5mY3lB8cnq22q+OP4wuFvdX8gjKBfHGIRIktMkDbyBmn1sCfbh6EDvyOKilrNn\n04IbHuItoVoBkbo2+ep3iVOQkOmY2A4kYnqLIOXOuQKBgQDoruDlqzoS/bUwpwd1\nXx5VRFCPvBwM/UC6S8BlY1PmHql2UaiqNzdbZa5TkPZw9N1YTWsRmgnyF5qUbLxR\nG6482T9fnND59Xg8W88ldfbvMZua3Iz17ITjbDPW/k+NlXPI/2eeE2v+9Ws+NMm3\nG9opbwfNr1nw2OkFU3KHB3EfmQKBgQDSo5PZ8e+u1Ts+5qUCFKN2ofWNVWXRuBbG\nvcmoHVkgZ1tfcrwuVmrrRQeRCd1qzSGui/rIU+AVfDsOwByVe5hm3wUP4UnTuQy0\n+uXGEqFr1+Ygt9hMv/zA2sDz8HCmRObWiV2hKbu0FfnH7ElGE2yDp/xbJG8OcbM4\ny8MdoG5FxwKBgA0VUDX5w8EvnNGIgsXZvFXlCnaaiCU+1DXlboME68HDtZmei9JO\nWoF8HSo7u2+shQmjCMMrmyWOqDVyS8BvwwNO395bbfCwGbujGemsUV8vteUmQ5LM\nYsh63AtZr1Vxstn5anUb+HWUjRwpUbJHEaRExvaMxozhVXDkOUtYYsb5AoGAbtvg\nqMgIWX+oGsbQ+XNbRMigr63OVL4KXrbsNyqbCc7b7DQ6jji1NPWzscX7XoZvv6m0\nZ1KdkTE889pwMMxHvXyK8XykmmW+JlIWNFUB1/xdBcM8d8hjgiyfeMOGxjtlMmxB\ndty8CV+3glz9g4AdkH0M9/sI6BU3OiEjo6gX4WkCgYEAkNvDJnEjAm/+M09Bbh5W\nJ9ArDnwoZzlGbQ7fRfkD3sAGs7IX17n5lHv0u7QoWlP/nl9DKtKDBPIfZZIWfW6Z\n0tAJY0P/gQsxvEUuJLmfJbv34uYMY7xc6sS1C+uS7G0IOyFxe7pkHs4uk4IEu1ah\nktmc6+3L3vjlNyh5ynZkjWM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "projetxamarin@courstuto-e40fa.iam.gserviceaccount.com",
+  "client_id": "109041546653141529122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/projetxamarin%40courstuto-e40fa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
